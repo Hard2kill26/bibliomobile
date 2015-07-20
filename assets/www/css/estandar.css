@@ -1,0 +1,202 @@
+.ui-page{-webkit-backface-visibility:hidden}
+.texto{font-size:12px;color:#8c8b8b} /* texto en historial */
+
+/* FONDO */ 
+#home,#historial,#catalogo,#cargarResults,#prestamos,#contacto,#reservas,#catalogoPage,#catalogohist,#contacto.ui-page{background-image:url(../images/bk-beige.png)}
+
+/***** Page login *****/
+.fondolog{
+background: -moz-linear-gradient(top, #1f6eaa, #82bae6);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#1f6eaa), to(#82bae6));
+}
+.logo_c{
+background:url(../images/logobm_log.png) no-repeat 0 50%;
+height:44px;
+width:225px;
+margin:20px auto;
+display:block;
+}
+/***** Fin page login *****/
+
+/***** Inicio header *****/
+#navbar{
+background:#0066a7;
+background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#0066a7),color-stop(100%,#103f8b));
+background:-webkit-linear-gradient(top,#0066a7 0%,#103f8b 100%);
+background:linear-gradient(top,#0066a7 0%,#103f8b 100%);
+height:44px;
+border-bottom:4px solid #fff;
+}
+#navbar:before{
+border-bottom:4px solid #f18103;
+content: '';  
+width: 100%;  
+height: 40px;  
+position: absolute; 
+}
+.logo_center{
+background:url(../images/logob4.png) no-repeat 0 50%;
+height:40px;
+width:191px;
+margin:0 auto;
+display:block;
+}
+/***** Fin header *****/
+
+/***** Inicio iconos principales *****/
+.home-button{
+display:inline-block;
+height:90px;
+margin:0;
+padding:20px 0 0 0;
+text-align:center;
+vertical-align:top;
+width:32%
+}
+.home-button .icon1{
+height:61px;
+width:59px;
+display:inline-block;
+position:relative;
+background:url(../images/icon1.png) /* Catálogo */
+}
+.home-button .icon2{
+height:61px;
+width:59px;
+display:inline-block;
+position:relative;
+background:url(../images/icon8.png) /* Mis libros */
+}
+.home-button .icon4{
+height:61px;
+width:59px;
+display:inline-block;
+position:relative;
+background:url(../images/icon2.png) /* Reservas */
+}
+.home-button .icon5{
+height:61px;
+width:59px;
+display:inline-block;
+position:relative;
+background:url(../images/icon3.png) /* Prestamos */
+}
+.home-button .icon6{
+height:61px;
+width:59px;
+display:inline-block;
+position:relative;
+background:url(../images/icon5.png) /* Perfil */
+}
+.home-button .icon7{
+height:61px;
+width:59px;
+display:inline-block;
+position:relative;
+background:url(../images/icon6.png) /* Contacto */
+}
+.home-button .title,.category-button .title{
+color:#333;
+display:inline-block;
+font-size:15px;
+font-weight:bold;
+overflow:hidden;
+padding-top:0;
+width:98%;
+text-shadow:#fff 1px 1px 0
+}
+/***** Fin iconos principales *****/
+
+/***** Inicio footer *****/
+.footer-text{
+text-align:center;
+margin:11px 0;
+color:#aaa;font-size:12px
+}
+.footer-text a{
+color:#aaa!important;
+font-weight:normal!important;
+}
+/***** Fin footer *****/
+
+/* Estilo input search */
+.ui-btn-corner-search{-moz-border-radius:.3em;-webkit-border-radius:0.3em;border-radius:0.3em}
+.ui-shadow-inset-search{-moz-box-shadow:inset 0 1px 4px rgba(0,0,0,.2);-webkit-box-shadow:inset 0 1px 4px rgba(0,0,0,.2);box-shadow:inset 0 1px 4px rgba(0,0,0,.2)}
+/* Fin estilo input search */
+
+/* Estilo button */
+/*
+.ui-btn-corner-all{
+-moz-border-radius:1em;
+-webkit-border-radius:1em;
+border-radius:1em
+}*/
+/* Estilo input text */
+.input_wrapper{
+margin-bottom:-5.5px;
+}
+.ui-corner-all.textfield{-moz-border-radius:.3em;-webkit-border-radius:.3em;border-radius:.3em}
+.ui-input-text{padding:.4em;display:block}
+/* Fin estilo input text */
+
+.span {
+font-size:14px;
+}
+#tam {
+font-size:14px;
+font-weight:normal;
+}
+#tam2 {
+font-size:14px;
+font-weight:bold;
+}
+#space {
+margin-bottom:6px;
+}
+#tam3 {
+font-size:13px;
+font-weight:normal;
+}
+#tam4 {
+font-size:14px;
+font-weight:bold;
+}
+
+.box-success, .box-error{
+	clear: both;
+	border-width: 1px;
+	border-style: solid;
+	padding: 7px;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	text-align: left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-right:6px;
+	margin-left:6px;
+}
+.box-success {
+	color: #4f8a10;
+	background-color: #dff2bf;
+	border-color: #4f8a10;
+}
+.box-error {
+	color: #d8000c;
+	background-color: #ffbaba;
+	border-color: #d8000c;
+}
+.message{
+	clear: both;
+	border-width: 1px;
+	border-style: solid;
+	padding: 7px;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-right:6px;
+	margin-left:6px;
+	color: #d8000c;
+	background-color: #ffbaba;
+	border-color: #d8000c;
+}

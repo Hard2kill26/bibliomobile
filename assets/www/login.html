@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Bibliomobile</title>
+	<meta name="description" content="Bibliomobile">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.0.min-tablet.css" media="only screen and (min-width: 481px) and (max-width: 768px)" />
+	<script type="text/javascript" src="js/scripts/jquery.js"></script>
+	<script type="text/javascript" src="js/scripts/jquery.mobile-1.0.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+	<script type="text/javascript" src="js/scripts/devices.js"></script>
+	<script type="text/javascript" src="js/scripts/backbutton.js"></script>
+	<script type="text/javascript" src="js/historial/historialList.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoBusqueda.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoResultados.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoDetails.js"></script>
+	<script type="text/javascript" src="js/reservas/reservasList.js"></script>
+	<link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 0px) and (max-width: 480px)" />
+	<link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 768px)" />
+	<link rel="stylesheet" href="css/estandar.css" media="screen and (min-width: 801px)" />
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/perfil.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/prestamos.js"></script>
+
+</head>
+<body onload="init();">	
+
+  <!-- ******** Inicio login ******** --> 
+<div data-role="page" id="login" class="fondolog">
+<div class="logo_c"></div>
+	<div data-role="content">
+	<div id="output"></div>
+	<form class="login_form" method="post" data-ajax="false" autocomplete="off">
+		<div class="input_wrapper ui-input-text">
+			<input class="textfield" type="text" name="username" placeholder="Nombre de usuario" data-theme="d"/>
+		</div>
+			<div class="input_wrapper ui-input-text">
+				<input class="textfield" type="password" name="password" placeholder="Contrase&ntilde;a" data-theme="d"/>
+			</div>
+			<a id="inicio_sesion" data-role="button" data-theme="e" onclick="validar_login();">Iniciar sesi&oacute;n</a>
+	</form>
+	</div>
+</div>
+  <!-- ******** Fin login ******** --> 
+</body>
+</html>

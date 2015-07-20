@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Pr&eacute;stamos</title>
+	<meta name="description" content="Bibliomobile">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.0.min-tablet.css" media="only screen and (min-width: 481px) and (max-width: 768px)" />
+	<script type="text/javascript" src="js/scripts/jquery.js"></script>
+	<script type="text/javascript" src="js/scripts/jquery.mobile-1.0.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova-1.8.1.js"></script>
+	<script type="text/javascript" src="js/scripts/devices.js"></script>
+	<script type="text/javascript" src="js/scripts/backbutton.js"></script>
+	<script type="text/javascript" src="js/historial/historialList.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoBusqueda.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoResultados.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoDetails.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogoHist.js"></script>
+	<script type="text/javascript" src="js/reservas/reservasList.js"></script>
+	<link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 0px) and (max-width: 480px)" />
+	<link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 768px)" />
+	<link rel="stylesheet" href="css/estandar.css" media="screen and (min-width: 801px)" />
+	<script type="text/javascript" src="js/md5.js"></script>
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/perfil.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/prestamos.js"></script>
+
+</head>
+<body onload="init();">	
+
+  <!-- ******** Inicio prestamo ******** -->  
+  <div data-role="page" id="prestamos" data-theme="c">
+	<header data-role="header" data-theme="c">
+		<div id="navbar">
+			<div class="logo_center"></div>
+		</div>
+	<a href="#" data-rel="back" data-role="button" data-icon="back" data-theme="b" class="ui-btn-left" data-iconpos="notext">Atr&aacute;s</a>
+	</header>
+		<div data-role="content">
+		<p style="margin-top:-32px;"></p>
+			<ul id="solPres" data-role="listview" data-theme="d" data-dividertheme="e">
+			</ul>
+		<p style="margin-bottom:25px;"></p>
+		<div id="noErrors"></div>
+		<p style="margin-bottom:10px;"></p>
+		<div id="alertPrestamos"></div>
+		<p style="margin-bottom:10px;"></p>
+		</div>
+		
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<div data-role="navbar" data-grid="d">
+			<ul>
+				<li><a id="home_n" data-theme="e"><img src="images/home2.png"/><br style="margin-bottom:3px;"><small>Inicio</small></a></li>
+				<li><a id="catalogo_n" data-theme="e"><img src="images/buscar2.png"/><br style="margin-bottom:3px;"><small>Cat&aacute;logo</small></a></li>
+				<li><a id="historial_n" data-theme="e"><img src="images/mislibros2.png"/><br style="margin-bottom:3px;"><small>Mis libros</small></a></li>
+				<li><a id="reservas_n" data-theme="e"><img src="images/reservas2.png" onclick="res2();"/><br style="margin-bottom:3px;"><small>Reservas</small></a></li>
+				<li><a id="prestamos_n" data-theme="c"><img src="images/prestamos2.png"/><br style="margin-bottom:3px;"><small>Pr&eacute;stamos</small></a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div>
+  </div>
+  <!-- ******** Fin prestamo ******** -->
+</body>
+</html>

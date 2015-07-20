@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>Bibliomobile</title>
+	<meta name="description" content="Bibliomobile">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/catalogo/catalogonav.js"></script>
+</head>
+<body>
+<div id="catalogohist" data-role="page" data-theme="c">
+	<header data-role="header" data-theme="c">
+		<div id="navbar">
+			<div class="logo_center"></div>
+		</div>
+	<a href="#" data-rel="back" data-role="button" data-icon="back" data-theme="b" class="ui-btn-left" data-iconpos="notext">Atr&aacute;s</a>
+	</header>
+	<div data-role="content"> 
+		<p style="margin-top:-15px;"></p>
+		<ul id="catalogoList2" data-role="listview" data-inset="true" data-theme="d"></ul>
+		<ul id="info2" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a"></ul>
+		<ul id="disponibilidad2" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="e"></ul>
+		
+		<p style="margin-top:5px;"></p>
+			<div id="reservar2"></div>
+		
+		<p style="margin-bottom:-13px;"></p>
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<div data-role="navbar" data-grid="d">
+			<ul>
+				<li><a id="home_n" data-theme="e"><img src="images/home2.png"/><br style="margin-bottom:3px;"><small>Inicio</small></a></li>
+				<li><a id="catalogo_n" data-theme="c"><img src="images/buscar2.png"/><br style="margin-bottom:3px;"><small>Cat&aacute;logo</small></a></li>
+				<li><a id="historial_n" data-theme="e"><img src="images/mislibros2.png"/><br style="margin-bottom:3px;"><small>Mis libros</small></a></li>
+				<li><a id="reservas_n" data-theme="e"><img src="images/reservas2.png" onclick="res2();"/><br style="margin-bottom:3px;"><small>Reservas</small></a></li>
+				<li><a id="prestamos_n" data-theme="e"><img src="images/prestamos2.png"/><br style="margin-bottom:3px;"><small>Pr&eacute;stamos</small></a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div>
+</div>
+</body>
+</html>

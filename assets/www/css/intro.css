@@ -1,0 +1,13 @@
+/***** Page inicio *****/
+.fondoinicio{
+background: -moz-linear-gradient(top, #02122e, #1f6eaa);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#02122e), to(#1f6eaa));
+}
+.logo_c2{
+background:url(../images/phone-portada.png) no-repeat 0 50%;
+height:480px;
+width:320px;
+margin:0 auto;
+display:block;
+}
+/***** Fin inicio *****/
